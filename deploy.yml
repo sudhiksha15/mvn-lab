@@ -3,7 +3,6 @@
 
   tasks:
     - name: Copy Artifact
-      become: true
       copy:
         src: "target/mvn_6-1.0-SNAPSHOT.jar"
-        dest: "/home/sudhiksha/t.jar"      
+
