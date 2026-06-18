@@ -4,5 +4,5 @@
   tasks:
     - name: Copy Artifact
       copy:
-        src: target/mvn_6-1.0-SNAPSHOT.jar
-        dest: /home/sudhiksha/t.jar
+        src: "target/mvn_6-1.0-SNAPSHOT.jar"
+        dest: "/Users/sudhiksha/t.jar"
