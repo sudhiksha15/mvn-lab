@@ -4,11 +4,6 @@
   tasks:
     - name: Copy Artifact
       become: true
-      become_user: student
-      become_method: su
-
       copy:
-        src: "/var/lib/jenkins/workspace/mvn_6/target/my-app-1.0-SNAPSHOT.jar"
-        dest: "/home/student/t.jar"
-
-
+        src: "target/mvn_6-1.0-SNAPSHOT.jar"
+        dest: "/home/sudhiksha/t.jar"      
